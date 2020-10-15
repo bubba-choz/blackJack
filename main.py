@@ -9,12 +9,10 @@ values = {'Two':2,'Three':3,'Four':4,'Five':5,'Six':6,'Seven':7,
 
 
 class Card:
-
     def __init__(self,suit,rank):
         self.suit = suit
         self.rank = rank
         self.value = values[rank]
-
     def __str__(self):
         return self.rank + ' of ' + self.suit
 
@@ -27,6 +25,26 @@ class Deck:
                 self.all_cards.append(created_card)
     def shuffle(self):
         random.shuffle(self.all_cards)
-
     def deal_one(self):
         return self.all_cards.pop()
+
+game_on = True
+gambler_pot = 0
+
+while game_on = True:
+
+def place_a_bet():
+    bet = input('Enter a bet: ')
+    return bet
+
+def check_bet():
+    pass
+
+def deal_cards():
+    pass
+
+def hit_or_stay():
+    pass
+
+def dealer_draws():
+    pass
